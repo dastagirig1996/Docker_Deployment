@@ -303,3 +303,5 @@ Not Found: /person1/name=sd,ghjjjfj&age=12
 "GET /person1/name=sd,ghjjjfj&age=12 HTTP/1.1" 404 8051
 "GET /person1/?name=sd,ghjjjfj&age=12 HTTP/1.1" 200 2
 C:\Samba sessions\DockerTests\ARMS\api_arms\api_arms\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
