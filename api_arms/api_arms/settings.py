@@ -143,7 +143,6 @@ REST_FRAMEWORK = {
 
 AUTH_USER_MODEL = "app1.MyUser"
 
-#DATABASE_ROUTERS = ['app1.dbrouters.MyRouter']
 LOGGING = {
     "version": 1,
     "disable_existing_loggers": False,
