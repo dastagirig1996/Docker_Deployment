@@ -5,7 +5,7 @@ from app1.viewsets import (PersonModelViewset, UserViewSet, RoleModelViewset,
     ApiModelViewset)
 from rest_framework.routers import DefaultRouter
 router = DefaultRouter()
-router.register(r'viewset_person', PersonModelViewset, basename='viewset_person')
+# router.register(r'viewset_person', PersonModelViewset, basename='viewset_person')
 router.register(r'user', UserViewSet, basename="user")
 router.register(r'role', RoleModelViewset, basename='role')
 router.register(r'api', ApiModelViewset, basename='api')
