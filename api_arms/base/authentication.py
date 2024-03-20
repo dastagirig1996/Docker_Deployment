@@ -32,7 +32,7 @@ class CheckPermission(BasePermission):
 
     def has_permission(self, request, view):
         given_api = request.META["PATH_INFO"]
-        role_inst = request.user.role
+        # role_inst = request.user.role
         if given_api=="/person/":
             pass
         else:
