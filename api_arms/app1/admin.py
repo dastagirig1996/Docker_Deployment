@@ -3,7 +3,8 @@ from .models import MyUser  # Import your MyUser model here
 
 # Define the admin class for MyUser
 class MyUserAdmin(admin.ModelAdmin):
-    pass  # You can customize the admin options here if needed
+    search_fields = ['username', 'email'] 
+    # You can customize the admin options here if needed
 
 # Register MyUser with the admin site
 admin.site.register(MyUser, MyUserAdmin)
