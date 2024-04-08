@@ -388,3 +388,11 @@ Unauthorized: /
 "GET / HTTP/1.1" 401 9832
 Unauthorized: /
 "GET / HTTP/1.1" 401 9832
+Watching for file changes with StatReloader
+C:\Samba sessions\DockerTests\api_arms\api_arms\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Samba sessions\DockerTests\api_arms\api_arms\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Samba sessions\DockerTests\api_arms\api_arms\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
